@@ -35,3 +35,14 @@ public/stylesheets/*.css
 
 # Design purposes folder
 design/
+
+# NodeBootstrap
+.DS_Store
+.project
+.idea
+.gitkeep
+nbproject
+.settings
+public/bower_components
+config/runtime.json
+config/local.*
