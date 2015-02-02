@@ -32,3 +32,6 @@ npm-debug.log
 # Compass
 public/.sass-cache/
 public/stylesheets/*.css
+
+# Design purposes folder
+design/
