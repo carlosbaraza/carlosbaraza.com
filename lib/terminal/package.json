@@ -1,0 +1,3 @@
+{ "name" : "Terminal module"
+, "main" : "terminal.js"
+}
