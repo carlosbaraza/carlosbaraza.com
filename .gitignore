@@ -46,3 +46,6 @@ nbproject
 public/bower_components
 config/runtime.json
 config/local.*
+
+# Results from grunt-mocha-test runner.
+results.txt
