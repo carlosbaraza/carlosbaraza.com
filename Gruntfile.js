@@ -25,8 +25,8 @@ module.exports = function(grunt) {
     // Client side
     mocha: {
       test: {
-        urls: ['http://localhost:' + port + '/testrunner'],
         options: {
+          urls: ['http://localhost:' + port + '/testrunner.html'],
           run: true,
           log: true,
           logErrors: true
@@ -48,6 +48,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', 'mocha');
+  grunt.registerTask('default', ['connect', 'mocha']);
 
 };

@@ -12,7 +12,7 @@ function check( done, f ) {
 
 describe('Terminal', function() {
   it('loads the index page', function(done) {
-    superagent.get('http://localhost:3000/')
+    superagent.get('/')
               .end(function(data, textStatus, xhr) {
       check(done, function() {
         expect(data.status).to.equal(200);
