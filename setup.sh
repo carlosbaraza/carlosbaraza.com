@@ -6,3 +6,5 @@ bower install
 chmod u+x ./bin/start.sh
 chmod u+x ./bin/stop.sh
 chmod u+x ./bin/dev_start.sh
+npm install grunt -g
+npm install mocha-phantomjs -g

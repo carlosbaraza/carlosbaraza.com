@@ -10,3 +10,9 @@ body {
 
   box-sizing: border-box;
 }
+
+#terminal pre {
+  background: inherit;
+  color: inherit;
+  border: inherit;
+}

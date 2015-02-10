@@ -7,4 +7,7 @@ require('nodebootstrap-server').setup(function(runningApp) {
   runningApp.use('/terminal', require('terminal'));
   runningApp.use(require('routes')); // attach to root route
 
+  var path = require('path');
+  global.appRoot = path.resolve(__dirname);
+
 });
